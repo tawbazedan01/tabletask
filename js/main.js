@@ -12,7 +12,7 @@ var names = [
     "Alaa", "Marwa", "Sameh", "Noura", "Murad", "Afaf", "Nizar", "Rida", "Aziz", "Dalia" 
     ]; 
 
-    for(var index=0;index<=names.length;index++)
+    for(var index=0;index<names.length;index++)
         data += `<tr> <td> ${names[index]} </td> </tr>`;
         document.querySelector("tbody").innerHTML = data;
    
